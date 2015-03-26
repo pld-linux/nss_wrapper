@@ -2,7 +2,7 @@ Summary:	NSS wrapper library
 Summary(pl.UTF-8):	Biblioteka obudowująca NSS
 Name:		nss_wrapper
 Version:	1.0.3
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries
 Source0:	http://www.samba.org/ftp/cwrap/%{name}-%{version}.tar.gz
