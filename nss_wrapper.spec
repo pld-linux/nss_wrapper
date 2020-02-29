@@ -1,12 +1,12 @@
 Summary:	NSS wrapper library
 Summary(pl.UTF-8):	Biblioteka obudowująca NSS
 Name:		nss_wrapper
-Version:	1.1.7
+Version:	1.1.8
 Release:	1
 License:	BSD
 Group:		Libraries
-Source0:	http://www.samba.org/ftp/cwrap/%{name}-%{version}.tar.gz
-# Source0-md5:	ffaa6b04431e280d70f56e99098886fc
+Source0:	https://www.samba.org/ftp/cwrap/%{name}-%{version}.tar.gz
+# Source0-md5:	b2a79a60be3919351e8179bcf450f7bf
 URL:		http://cwrap.org/nss_wrapper.html
 BuildRequires:	cmake >= 3.5.0
 BuildRequires:	rpmbuild(macros) >= 1.605
@@ -67,7 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog LICENSE README.md TODO
+%doc AUTHORS CHANGELOG LICENSE README.md TODO
 %attr(755,root,root) %{_bindir}/nss_wrapper.pl
 %attr(755,root,root) %{_libdir}/libnss_wrapper.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libnss_wrapper.so.0
